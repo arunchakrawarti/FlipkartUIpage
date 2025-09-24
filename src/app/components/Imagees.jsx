@@ -2,7 +2,7 @@ import React from "react";
 
 const Imagees = () => {
   return (
-    <div className="w-full max-w-7xl mx-auto  mt-18 py-5  px-4 sm:px-6 lg:px-8 flex flex-wrap justify-center sm:justify-evenly gap-6">
+    <div className="w-full max-w-7xl mx-auto  mt-20 py-5  px-4 sm:px-6 lg:px-8 flex flex-wrap justify-center sm:justify-evenly gap-6">
       
       <div className="flex flex-col items-center text-center">
         <img

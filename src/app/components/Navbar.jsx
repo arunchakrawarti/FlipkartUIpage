@@ -8,7 +8,7 @@ const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
 
   return (
-    <nav className="bg-white shadow-sm fixed w-full top-0 z-50">
+    <nav className=" h-[70px] bg-white shadow-sm fixed w-full top-0 py-1.5 z-50">
       <div className="max-w-7xl mx-auto px-3 sm:px-6">
         <div className="flex items-center justify-between h-14">
          
@@ -32,15 +32,15 @@ const Navbar = () => {
           <div className="hidden md:flex items-center text-md gap-8 -mr-15 font-medium space-x-15">
             <div className="flex items-center space-x-3 cursor-pointer">
               <FiUser  size={22} />
-              <span className="-mr-8 text-[16px]">Login</span>
+              <span className="-mr-8 text-[17px]">Login</span>
             </div>
             <div className="flex items-center space-x-3 cursor-pointer">
               <FiShoppingCart size={22} />
-              <span className="-mr-8 text-[16px]">Cart</span>
+              <span className="-mr-8 text-[17px]">Cart</span>
             </div>
             <div className="flex items-center space-x-3 cursor-pointer">
               <MdStore size={22} />
-              <span className="-mr-8 text-[16px]">Become a Seller</span>
+              <span className="-mr-8 text-[17px]">Become a Seller</span>
             </div>
             <div className="flex items-center cursor-pointer">
               <HiOutlineDotsVertical size={22} className="-mr-10" />
